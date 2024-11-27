@@ -2,10 +2,10 @@ const mysql = require('mysql2');
 
 // MySQL connection
 const db = mysql.createConnection({
-    host: process.env.HOST,
-    user: process.env.USER,
-    password: process.env.PASSWORD, // Replace with your MySQL root password
-    database: process.env.DATABASE // Replace with your database name
+    host: 'dpg-ct3kkgbtq21c738ssjpg-a',
+    user: 'root',
+    password: 'PGnl79giYQcovWAW7uP8vkuKe3LWC8kR', // Replace with your MySQL root password
+    database: 'schooldb_bd9e' // Replace with your database name
 });
 
 // Connect to database
